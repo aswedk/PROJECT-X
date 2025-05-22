@@ -1,0 +1,16 @@
+
+name: project_k
+description: A basic camera app for face and eye tracking.
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.17.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  camera: ^0.9.4+5
+
+flutter:
+  uses-material-design: true
